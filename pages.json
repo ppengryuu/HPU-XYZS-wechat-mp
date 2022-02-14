@@ -1,0 +1,394 @@
+{
+	"tabBar":{
+		"borderStyle":"white",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icons/tabbar/index.png",
+				"selectedIconPath":"static/icons/tabbar/index-selected.png"
+			},
+			// {
+			// 	"pagePath":"pages/white-wall/white-wall",
+			// 	"iconPath":"static/icons/tabbar/dt.png",
+			// 	"selectedIconPath":"static/icons/tabbar/dt-selected.png"
+			// },
+			{
+				"pagePath":"pages/class-schedule/class-schedule",
+				"iconPath":"static/icons/tabbar/timetable.png",
+				"selectedIconPath":"static/icons/tabbar/timetable-selected.png"
+			},{
+				"pagePath":"pages/all-functions/all-functions",
+				"iconPath":"static/icons/tabbar/function.png",
+				"selectedIconPath":"static/icons/tabbar/function-selected.png"
+			}
+		]
+	},
+	"pages": [//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style" : {
+				"backgroundColorTop":"rgb(255, 255, 255)",
+				"backgroundColorBottom":"rgb(255, 255, 255)",
+				"navigationBarTitleText":"河南理工大学",
+				"enablePullDownRefresh":true
+			}
+		}
+   //      ,{
+   //          "path" : "pages/my/my",
+   //          "style" : {
+			// 	"navigationBarTitleText":"我"
+			// }
+   //      }
+		,{
+		    "path" : "pages/chengji/chengji",
+		    "style" : {
+				"backgroundColor":"rgb(242,246,245)",
+				"navigationBarTitleText":"成绩"
+			}
+		}
+        ,{
+            "path" : "pages/tushu/tushu",
+            "style" : {
+				"navigationBarTitleText":"图书馆",
+				"enablePullDownRefresh":true
+			}
+        }
+   //      ,{
+   //          "path" : "pages/biaobaiqiang/biaobaiqiang",
+   //          "style" : {
+			// 	"navigationBarTitleText":"表白墙"
+			// }
+   //      }
+   //      ,{
+   //          "path" : "pages/shiwuzhaoling/shiwuzhaoling",
+   //          "style" : {
+			// 	"navigationBarTitleText":"失物招领"
+			// }
+   //      }
+        ,{
+            "path" : "pages/bangding/bangding",
+            "style" : {
+				"navigationBarTitleText":"我的绑定"
+			}
+        }
+		// ,{
+		//     "path" : "pages/user-set-userinfo/user-set-userinfo",
+		//     "style" : {
+		// 		"navigationBarTitleText":"修改资料"
+		// 	}
+		// }
+        ,{
+            "path" : "pages/settings/settings",
+            "style" : {
+				"navigationBarTitleText":"设置"
+			}
+        }
+        ,{
+            "path" : "pages/zhanghaomima/zhanghaomima",
+            "style" : {
+				"navigationBarTitleText":"账号与密码"
+			}
+        }
+   //      ,{
+   //          "path" : "pages/xieyizhengce/xieyizhengce",
+   //          "style" : {
+			// 	"navigationBarTitleText":"协议和政策"
+			// }
+   //      }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText":"反馈和建议"
+			}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {
+				"navigationBarTitleText":"关于"
+			}
+        }
+        ,{
+            "path" : "pages/zhanghaomima/bind/bindemail",
+            "style" : {
+				"navigationBarTitleText":"更换绑定邮箱"
+			}
+        }
+        ,{
+            "path" : "pages/zhanghaomima/changepassword/changepassword",
+            "style" : {
+				"navigationBarTitleText":"设置/更改密码"
+			}
+        }
+        ,{
+            "path" : "pages/service-agreement/service-agreement",
+            "style" : {
+				"navigationBarTitleText":"服务协议"
+			}
+        }
+   //      ,{
+   //          "path" : "pages/xieyizhengce/privacy-policy/privacy-policy",
+   //          "style" : {
+			// 	"navigationBarTitleText":"隐私政策"
+			// }
+   //      }
+		// ,{
+		//     "path" : "pages/paper/paper",
+		//     "style" : {
+		// 		"navigationBarTitleText":"消息"
+		// 	}
+		// }
+		// ,{
+		//     "path" : "pages/paper/system-messages/system-messages",
+		//     "style" : {
+		// 		"navigationBarTitleText":"系统消息"
+		// 	}
+		// }
+		// ,{
+		//     "path" : "pages/paper/messages/messages",
+		//     "style" : {
+		// 		"navigationBarTitleText":"消息"
+		// 	}
+		// }
+		// ,{
+		//     "path" : "pages/paper/swzl-messages/swzl-messages",
+		//     "style" : {
+		// 		"navigationBarTitleText":"消息-失物招领"
+		// 	}
+		// }
+        ,{
+            "path" : "pages/class-schedule/class-schedule",
+            "style" : {
+				"navigationBarTitleText":"课程表"
+			}
+        }
+        ,{
+            "path" : "pages/user-login/user-login",
+            "style" : {
+				"navigationBarTitleText":"登录/注册",
+				"app-plus":{
+					"animationType":"slide-in-bottom",
+					"titleNView":{
+						"autoBackButton":"false",
+						"backgroundColor":"#FFFFFF"
+					}
+				}
+			}
+        }
+   //      ,{
+   //          "path" : "pages/biaobaiqiang/fabubiaobai/fabubiaobai",
+   //          "style" : {
+			// 	"navigationBarTitleText":"发布到表白墙"
+			// }
+   //      }
+        ,{
+            "path" : "pages/bangding/jiaowu/jiaowu",
+            "style" : {
+				"navigationBarTitleText":"绑定教务"
+			}
+        }
+        ,{
+            "path" : "pages/bangding/tushuguan/tushuguan",
+            "style" : {
+				"navigationBarTitleText":"绑定图书馆"
+			}
+        }
+        ,{
+            "path" : "pages/school-map/school-map",
+            "style" : {
+				"navigationBarTitleText":"学校地图"
+			}
+        }
+        ,{
+            "path" : "pages/school-calender/school-calender",
+            "style" : {
+				"navigationBarTitleText":"校历"
+			}
+        }
+   //      ,{
+   //          "path" : "pages/school-white-car/school-white-car",
+   //          "style" : {
+			// 	"navigationBarTitleText":"通勤班车"
+			// }
+   //      }
+        ,{
+            "path" : "pages/find-school-card/find-school-card",
+            "style" : {
+				"navigationBarTitleText":"捡到校园卡"
+			}
+        }
+        ,{
+            "path" : "pages/tushu/search-book/search-book",
+            "style" : {
+				"navigationBarTitleText":"搜索图书"
+			}
+        }
+        ,{
+            "path" : "pages/tushu/book-detail/book-detail",
+            "style" : {
+				"navigationBarTitleText":"图书详情"
+			}
+        }
+   //      ,{
+   //          "path" : "pages/tushu/douban-book/douban-book",
+   //          "style" : {
+			// 	"navigationBarTitleText":"豆瓣图书"
+			// }
+   //      }
+   //      ,{
+   //          "path" : "pages/white-wall/white-wall",
+   //          "style" : {
+			// 	"navigationBarTitleText":"白墙"
+			// }
+   //      }
+		// ,{
+		//     "path" : "pages/fabudongtai/fabudongtai",
+		//     "style" : {
+		// 		"navigationBarTitleText":"发布动态"
+		// 	}
+		// }
+   //      ,{
+   //          "path" : "pages/tushu/renew-book/renew-book",
+   //          "style" : {
+			// 	"navigationBarTitleText":"续借图书"
+			// }
+   //      }
+   //      ,{
+   //          "path" : "pages/tushu/renew-book/help/help",
+   //          "style" : {
+			// 	"navigationBarTitleText":"关联微信图书馆"
+			// }
+   //      }
+        ,{
+            "path" : "pages/chengji/my-ranking/my-ranking",
+            "style" : {
+				"navigationBarTitleText":"排名"
+			}
+        }
+        ,{
+            "path" : "pages/chengji/chengji-detail/chengji-detail",
+            "style" : {
+				"navigationBarTitleText":"成绩详情"
+			}
+        }
+   //      ,{
+   //          "path" : "pages/user-space/user-space",
+   //          "style" : {
+			// 	"navigationBarTitleText":"个人中心"
+			// }
+   //      }
+   //      ,{
+   //          "path" : "pages/user-space/my-post/my-post",
+   //          "style" : {
+			// 	"enablePullDownRefresh":true,
+			// 	"navigationBarTitleText":"我的动态"
+			// }
+   //      }
+   //      ,{
+   //          "path" : "pages/user-space/my-comment/my-comment",
+   //          "style" : {
+			// 	"enablePullDownRefresh":true,
+			// 	"navigationBarTitleText":"我的评论"
+			// }
+   //      }
+   //      ,{
+   //          "path" : "pages/user-space/my-like/my-like",
+   //          "style" : {
+			// 	"enablePullDownRefresh":true,
+			// 	"navigationBarTitleText":"我的点赞"
+			// }
+   //      }
+		// ,{
+		//     "path" : "pages/detail/detail",
+		//     "style" : {
+		// 		"navigationBarTitleText":"动态详情",
+		// 		"enablePullDownRefresh":true
+		// 	}
+		// }
+   //      ,{
+   //          "path" : "pages/browse-user-post/browse-user-post",
+   //          "style" : {
+			// 	"enablePullDownRefresh":true
+			// }
+   //      }
+   //      ,{
+   //          "path" : "pages/search-user-post/search-user-post",
+   //          "style" : {
+			// 	"navigationBarTitleText":"搜索"
+			// }
+   //      }
+        // ,{
+        //     "path" : "pages/browse-userinfo/browse-userinfo",
+        //     "style" : {}
+        // }
+        // ,{
+        //     "path" : "pages/user-set-userinfo/reload-user-set-userinfo/reload-user-set-userinfo",
+        //     "style" : {}
+        // }
+        ,{
+            "path" : "pages/empty-classroom/empty-classroom",
+            "style" : {
+				"navigationBarTitleText":"空教室查询"
+			}
+        }
+        ,{
+            "path" : "pages/empty-classroom/ec-search-res/ec-search-res",
+            "style" : {
+				"navigationBarTitleText":"查询结果"
+			}
+        }
+   //      ,{
+   //          "path" : "pages/ad/ad",
+   //          "style" : {
+			// }
+   //      }
+        // ,{
+        //     "path" : "pages/public-webview/public-webview",
+        //     "style" : {}
+        // }
+        ,{
+            "path" : "pages/user-login/login-help/login-help",
+            "style" : {
+				"navigationBarTitleText":"登录帮助"
+			}
+        }
+        ,{
+            "path" : "pages/class-schedule/edit-courses/edit-courses",
+            "style" : {
+            	"navigationBarTitleText":"编辑课程表"
+            }
+        }
+        ,{
+            "path" : "pages/class-schedule/edit-courses/edit-or-add/edit-or-add",
+            "style" : {
+            	"navigationBarTitleText":"课程详情"
+            }
+        }
+        ,{
+            "path" : "pages/all-functions/all-functions",
+            "style" : {}
+        }
+        // ,{
+        //     "path" : "pages/test/test",
+        //     "style" : {}
+        // }
+        ,{
+            "path" : "pages/electricity/electricity",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/electricity/electricity-res/electricity-res",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"app-plus":{
+			"bounce":"none",//关闭窗口回弹效果
+			"scrollIndicator":"none",
+			"softinputNavBar":"none",
+			"softinputMode":"adjustResize"
+		}
+	}
+}
