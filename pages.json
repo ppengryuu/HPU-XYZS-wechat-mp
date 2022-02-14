@@ -1,0 +1,268 @@
+{
+	"tabBar":{
+		"borderStyle":"white",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icons/tabbar/index.png",
+				"selectedIconPath":"static/icons/tabbar/index-selected.png"
+			},
+			{
+				"pagePath":"pages/timetable/timetable",
+				"iconPath":"static/icons/tabbar/timetable.png",
+				"selectedIconPath":"static/icons/tabbar/timetable-selected.png"
+			},{
+				"pagePath":"pages/all-functions/all-functions",
+				"iconPath":"static/icons/tabbar/function.png",
+				"selectedIconPath":"static/icons/tabbar/function-selected.png"
+			}
+		]
+	},
+	"pages": [//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style" : {
+				"backgroundColorTop":"rgb(255, 255, 255)",
+				"backgroundColorBottom":"rgb(255, 255, 255)",
+				"navigationBarTitleText":"河南理工大学",
+				"enablePullDownRefresh":true
+			}
+		}
+		,{
+		    "path" : "pages/chengji/chengji",
+		    "style" : {
+				"backgroundColor":"#f2f6f5",
+				"navigationBarTitleText":"成绩"
+			}
+		}
+        ,{
+            "path" : "pages/tushu/tushu",
+            "style" : {
+				"navigationBarTitleText":"图书馆",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/bangding/bangding",
+            "style" : {
+				"navigationBarTitleText":"我的绑定"
+			}
+        }
+        ,{
+            "path" : "pages/settings/settings",
+            "style" : {
+				"navigationBarTitleText":"设置"
+			}
+        }
+        ,{
+            "path" : "pages/account-setting/account-setting",
+            "style" : {
+				"navigationBarTitleText":"账号与密码"
+			}
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText":"反馈和建议"
+			}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {
+				"navigationBarTitleText":"关于"
+			}
+        }
+        ,{
+            "path" : "pages/account-setting/bind/bindemail",
+            "style" : {
+				"navigationBarTitleText":"更换绑定邮箱"
+			}
+        }
+        ,{
+            "path" : "pages/account-setting/changepassword/changepassword",
+            "style" : {
+				"navigationBarTitleText":"设置/更改密码"
+			}
+        }
+        ,{
+            "path" : "pages/timetable/timetable",
+            "style" : {
+				"navigationBarTitleText":"课程表"
+			}
+        }
+        ,{
+            "path" : "pages/user-login/user-login",
+            "style" : {
+				"navigationBarTitleText":"登录/注册",
+				"app-plus":{
+					"animationType":"slide-in-bottom",
+					"titleNView":{
+						"autoBackButton":"false",
+						"backgroundColor":"#FFFFFF"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/bangding/jiaowu/jiaowu",
+            "style" : {
+				"navigationBarTitleText":"绑定教务"
+			}
+        }
+        ,{
+            "path" : "pages/bangding/tushuguan/tushuguan",
+            "style" : {
+				"navigationBarTitleText":"绑定图书馆"
+			}
+        }
+        ,{
+            "path" : "pages/school-map/school-map",
+            "style" : {
+				"navigationBarTitleText":"学校地图"
+			}
+        }
+        ,{
+            "path" : "pages/school-calender/school-calender",
+            "style" : {
+				"navigationBarTitleText":"校历"
+			}
+        }
+        ,{
+            "path" : "pages/find-school-card/find-school-card",
+            "style" : {
+				"navigationBarTitleText":"捡到校园卡"
+			}
+        }
+        ,{
+            "path" : "pages/tushu/search-book/search-book",
+            "style" : {
+				"navigationBarTitleText":"搜索图书"
+			}
+        }
+        ,{
+            "path" : "pages/tushu/book-detail/book-detail",
+            "style" : {
+				"navigationBarTitleText":"图书详情"
+			}
+        }
+        ,{
+            "path" : "pages/chengji/my-ranking/my-ranking",
+            "style" : {
+				"navigationBarTitleText":"排名"
+			}
+        }
+        ,{
+            "path" : "pages/chengji/chengji-detail/chengji-detail",
+            "style" : {
+				"navigationBarTitleText":"成绩详情"
+			}
+        }
+        ,{
+            "path" : "pages/empty-classroom/empty-classroom",
+            "style" : {
+				"navigationBarTitleText":"空教室查询"
+			}
+        }
+        ,{
+            "path" : "pages/empty-classroom/ec-search-res/ec-search-res",
+            "style" : {
+				"navigationBarTitleText":"查询结果"
+			}
+        }
+        ,{
+            "path" : "pages/user-login/login-help/login-help",
+            "style" : {
+				"navigationBarTitleText":"登录帮助"
+			}
+        }
+        ,{
+            "path" : "pages/timetable/edit-courses/edit-courses",
+            "style" : {
+            	"navigationBarTitleText":"编辑课程表"
+            }
+        }
+        ,{
+            "path" : "pages/timetable/edit-courses/edit-or-add/edit-or-add",
+            "style" : {
+            	"navigationBarTitleText":"课程详情"
+            }
+        }
+        ,{
+            "path" : "pages/all-functions/all-functions",
+            "style" : {
+				"navigationBarTitleText":"全部功能"
+			}
+        }
+        ,{
+            "path" : "pages/electricity/electricity",
+            "style" : {
+				"navigationBarTitleText":"电费查询"
+			}
+        }
+        ,{
+            "path" : "pages/electricity/electricity-res/electricity-res",
+            "style" : {
+				"navigationBarTitleText":"电费详情"
+			}
+        }
+        ,{
+            "path" : "pages/school-logistics/school-logistics",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tice-grade/tice-grade",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tice-grade/tice-grade-res/tice-grade-res",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/school-logistics/logistics-functions/logistics-functions",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/school-logistics/post-repair/post-repair",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/school-logistics/post-list/post-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/school-logistics/logistic-detail/logistic-detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/school-gonggao/school-gonggao",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/school-gonggao/gonggao-list/gonggao-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/empty-classroom/login-new-eams/login-new-eams",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/json-docView/json-docView",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/loginvpn/loginvpn",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"app-plus":{
+			"bounce":"none",//关闭窗口回弹效果
+			"scrollIndicator":"none",
+			"softinputNavBar":"none",
+			"softinputMode":"adjustResize"
+		}
+	}
+}
